@@ -12,9 +12,9 @@ import (
 )
 
 type Envelope struct {
-	TraceID string `json:traceID`
-	Type    string `json:type`
-	Payload json.RawMessage `json:payload`
+	TraceID string `json:"traceID"`
+	Type    string `json:"type"`
+	Payload json.RawMessage `json:"payload"`
 }
 
 type TelemetryHub struct {
