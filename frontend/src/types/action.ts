@@ -1,0 +1,1 @@
+export type ActionType = "REROUTE" | "RETURN_TO_HOME" | "EMERGENCY_HOVER" | "THROTTLE_VECTOR";
